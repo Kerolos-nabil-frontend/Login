@@ -1,0 +1,13 @@
+body{
+    background-color:#24353F ;
+}
+.container{
+    background-color: #629cc8;
+    box-shadow: black;
+}
+.container h1{
+    color: #02262c;
+}
+.data button{
+    background-color:rgb(53, 28, 238);
+}

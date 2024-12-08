@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container shadow-lg  mt-5">
+        <div class="data m-auto w-75">
+            <h1 class="h1 text-center fw-bolder my-auto pt-5">
+                Smart Login System
+            </h1>
+            <div class="input pt-4">
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="Enter your email">
+                    <div id="emailAlert" class="danger text-danger d-none">
+                       <p>Enter a valid E-mail</p> 
+                    </div>
+                    <label for="floatingInput">Email address</label>
+                  </div>
+                  <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Enter your password">
+                    <div id="passAlert" class="danger text-danger d-none">
+                        <p>Enter a valid Password</p> 
+                     </div>
+                    <label for="floatingPassword">Password</label>
+                  </div>
+            </div>
+            
+            <button class="btn border-3 w-100 my-4 btn-outline-info" id="Loginbtn">Login</button>
+
+            <p class="lead text-center text-light">Don’t have an account?<a href="#" class="text-light text-decoration-none"> Sign up</a></p>
+    
+        </div>
+  
+    </div>
+   
+    <script src="index.js"></script>
+</body>
+</html>
